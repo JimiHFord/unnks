@@ -1,0 +1,21 @@
+#!/bin/sh
+printf 'static NksLibraryDesc libraries[] =\n'
+printf '{\n'
+sort | while read line; do
+  id=$(printf "%s" "$line" | cut -d' ' -f1)
+  name=$(printf "%s" "$line" | cut -d' ' -f4-)
+  key=$(printf "%s" "$line" | cut -d' ' -f2)
+  iv=$(printf "%s" "$line" | cut -d' ' -f3)
+  iv_len=$(($(printf "%s" "$iv" | wc -c)/2))
+  key_len=$(($(printf "%s" "$key" | wc -c)/2))
+  key=$(printf "%s" "$key" | sed -e 's/\(..\)/\\x\1/g')
+  iv=$(printf "%s" "$iv" | sed -e 's/\(..\)/\\x\1/g')
+  printf '  {\n'
+  printf '    0x%s, "%s",\n' "$id" "$name"
+  printf '    {\n'
+  printf '      "%s", %s,\n' "$key" "$key_len"
+  printf '      "%s", %s\n' "$iv" "$iv_len"
+  printf '    }\n'
+  printf '  },\n'
+done
+printf '};\n'
