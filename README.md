@@ -10,15 +10,15 @@ unnks extracts data from nks and nkx archives, which are commonly used by
 several music synthesis programs.  It has a similar interface to GNU tar.
 Instead of doing
 
-  tar -xvf archive.tar,
+    tar -xvf archive.tar,
 
 just do
 
-  unnks -xvf archive.nks,
+    unnks -xvf archive.nks,
   
 or optionally
 
-  unnks -C output_dir -xvf archive.nks.
+    unnks -C output_dir -xvf archive.nks.
 
 In addition to the unnks program, this package contains the utilities nks-scan,
 nks-ls-libs, and the libnks library.
