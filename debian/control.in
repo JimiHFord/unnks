@@ -1,9 +1,0 @@
-Package: unnks
-Version: @VERSION@
-Architecture: @DEBIAN_ARCH@
-Maintainer: Unavowed <unavowed@vexillium.org>
-Section: utils
-Depends: libgcrypt11, libglib2.0-0
-Description: Extracts nks and nkx archives.
-  unnks extracts data from nks and nkx archives, which are commonly used by
-  several music synthesis programs.  It has a similar interface to GNU tar.
