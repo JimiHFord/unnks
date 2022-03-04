@@ -22,30 +22,6 @@ PKG_PROG_PKG_CONFIG
 AC_LIBTOOL_WIN32_DLL
 AM_PROG_LIBTOOL
 
-# Debian architecture check
-AC_MSG_CHECKING([the Debian architecture of this system])
-case "$host_cpu" in
-  i?86)
-    AC_MSG_RESULT([i386])
-    DEBIAN_ARCH=i386
-  ;;
-  x86_64)
-    AC_MSG_RESULT([amd64])
-    DEBIAN_ARCH=amd64
-  ;;
-  arm*)
-    AC_MSG_RESULT([arm])
-    DEBIAN_ARCH=arm
-  ;;
-  *)
-    DEBIAN_ARCH="$ARCH"
-    AC_MSG_RESULT([unknown])
-    AC_MSG_WARN([Unknown Debian architecture: If you are building packages, please check the debian/control file])
-  ;;
-esac
-
-AC_SUBST([DEBIAN_ARCH])
-
 AC_MSG_CHECKING([host operating system])
 
 case "$host_os" in
@@ -126,5 +102,5 @@ AC_SYS_LARGEFILE
 # Checks for library functions.
 AC_CHECK_FUNCS([posix_fallocate])
 
-AC_CONFIG_FILES([debian/control Makefile src/Makefile])
+AC_CONFIG_FILES([Makefile src/Makefile])
 AC_OUTPUT
