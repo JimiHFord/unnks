@@ -2,7 +2,7 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ(2.61)
-AC_INIT([unnks],[0.2.5],[unavowed@vexillium.org])
+AC_INIT([unnks],[0.2.6],[unavowed@vexillium.org])
 AC_CONFIG_SRCDIR([src/unnks.c])
 AC_CONFIG_HEADER([src/config.h])
 
