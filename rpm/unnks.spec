@@ -2,7 +2,7 @@
 %global libsomajor 0
 
 Name:           unnks
-Version:        0.2.5
+Version:        0.2.6
 Release:        0%{?dist}
 Summary:        nks and nkx archive unpacker
 
