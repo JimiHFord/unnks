@@ -20,6 +20,29 @@
 *.so.*
 *.dylib
 
+# Generated files
+aclocal.m4
+config.h*
+Makefile
+Makefile.in
+autom4te.cache/
+compile
+config.guess
+config.log
+config.status
+config.sub
+configure
+depcomp
+install-sh
+libtool
+ltmain.sh
+missing
+.deps/
+.libs/
+nks-scan
+stamp-h1
+unnks
+
 # Executables
 *.exe
 *.out
