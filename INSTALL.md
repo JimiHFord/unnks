@@ -5,7 +5,7 @@
 This project makes use of [GNU Automake](https://www.gnu.org/software/automake/) as a build system.
 
 Development headers for [Libgcrypt](https://www.gnupg.org/software/libgcrypt/index.html) and [GLib 2.0](https://docs.gtk.org/glib/)
-are requires at a minimum.
+are required at a minimum
 
 ## Building
 
