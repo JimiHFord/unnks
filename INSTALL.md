@@ -13,5 +13,5 @@ are required at a minimum
 2. `autoreconf --install` to initialize the build system
 3. `./configure` to prepare the project
 4. `make` to build the binary
-   - `unnks` will be built to `./src/unnks`
+   - Binaries will be built to the `./src` directory
 5. `make install` to install the built project to the system
