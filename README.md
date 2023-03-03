@@ -2,7 +2,7 @@
 
 nks and nkx archive unpacker
 
-# Introduction
+## Introduction
 
 unnks extracts data from nks and nkx archives, which are commonly used by
 several music synthesis programs.  It has a similar interface to GNU tar.
