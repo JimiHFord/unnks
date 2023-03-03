@@ -1,24 +1,22 @@
-unnks
-=====
+# unnks
 
 nks and nkx archive unpacker
 
-Introduction
-------------
+# Introduction
 
 unnks extracts data from nks and nkx archives, which are commonly used by
 several music synthesis programs.  It has a similar interface to GNU tar.
 Instead of doing
 
-    tar -xvf archive.tar,
+    tar -xvf archive.tar
 
 just do
 
-    unnks -xvf archive.nks,
+    unnks -xvf archive.nks
   
 or optionally
 
-    unnks -C output_dir -xvf archive.nks.
+    unnks -C output_dir -xvf archive.nks
 
 In addition to the unnks program, this package contains the utilities nks-scan,
 nks-ls-libs, and the libnks library.
@@ -37,8 +35,7 @@ support to your GPLv3+ program, then you may use libnks to accomplish it.  Be
 warned however, that the API/ABI may change in future releases without warning.
 
 
-nkx support
------------
+## nkx support
 
 nkx files are different from nks files in that each archive may have its own
 encryption key needed to extract the contents.  These keys are usually supplied
@@ -88,8 +85,7 @@ information to unavowed at vexillium org, it will be included in the next
 version of unnks.
 
 
-Limitations
------------
+## Limitations
 
 1. Only extracting or listing archives is supported; unnks does not create
    new archives.
@@ -98,8 +94,7 @@ Limitations
    or other non-seekable streams is not supported.
 
 
-Thanks
-------
+## Thanks
 
 Thanks to Gynvael Coldwind for pointing out bugs in the code, and to Steffan
 Andrews for all the help with discovering how to extract nkx files and then
