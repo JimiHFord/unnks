@@ -34,6 +34,9 @@ code that unnks uses internally to access archives.  If you want to add nks/nkx
 support to your GPLv3+ program, then you may use libnks to accomplish it.  Be
 warned however, that the API/ABI may change in future releases without warning.
 
+## Building && Installation
+
+See [INSTALL.md](INSTALL.md) for instructions
 
 ## nkx support
 
