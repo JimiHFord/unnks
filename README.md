@@ -2,7 +2,7 @@
 
 nks and nkx archive unpacker
 
-# Introduction
+## Introduction
 
 unnks extracts data from nks and nkx archives, which are commonly used by
 several music synthesis programs.  It has a similar interface to GNU tar.
@@ -34,6 +34,9 @@ code that unnks uses internally to access archives.  If you want to add nks/nkx
 support to your GPLv3+ program, then you may use libnks to accomplish it.  Be
 warned however, that the API/ABI may change in future releases without warning.
 
+## Building && Installation
+
+See [INSTALL.md](INSTALL.md) for instructions
 
 ## nkx support
 
