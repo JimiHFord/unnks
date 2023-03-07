@@ -42,6 +42,7 @@ missing
 nks-scan
 stamp-h1
 unnks
+nks-ls-libs
 
 # Executables
 *.exe
