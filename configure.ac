@@ -1,10 +1,10 @@
 #                                               -*- Autoconf -*-
 # Process this file with autoconf to produce a configure script.
 
-AC_PREREQ(2.61)
+AC_PREREQ([2.71])
 AC_INIT([unnks],[0.2.6],[unavowed@vexillium.org])
 AC_CONFIG_SRCDIR([src/unnks.c])
-AC_CONFIG_HEADER([src/config.h])
+AC_CONFIG_HEADERS([src/config.h])
 
 AM_INIT_AUTOMAKE([foreign])
 
@@ -73,18 +73,26 @@ AC_COMPILE_IFELSE([
 
 BACKUP_LIBS=$LIBS
 AC_CHECK_LIB([gcrypt],[gcry_check_version],,[
-  AC_ERROR([libgcrypt not found])
+  AC_MSG_ERROR(libgcrypt not found)
 ])
 LIBS=$BACKUP_LIBS
 GCRYPT_LIBS=-lgcrypt
 AC_SUBST([GCRYPT_LIBS])
 
 PKG_CHECK_MODULES([GLIB], [glib-2.0], ,[
-  AC_ERROR([glib-2.0 not found])
+  AC_MSG_ERROR(glib-2.0 not found)
 ])
 
 # Checks for header files.
-AC_HEADER_STDC
+m4_warn([obsolete],
+[The preprocessor macro `STDC_HEADERS' is obsolete.
+  Except in unusual embedded environments, you can safely include all
+  ISO C90 headers unconditionally.])dnl
+# Autoupdate added the next two lines to ensure that your configure
+# script's behavior did not change.  They are probably safe to remove.
+AC_CHECK_INCLUDES_DEFAULT
+AC_PROG_EGREP
+
 AC_CHECK_HEADERS([inttypes.h stdlib.h string.h unistd.h])
 
 # Checks for typedefs, structures, and compiler characteristics.

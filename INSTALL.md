@@ -4,6 +4,10 @@
 
 This project makes use of [GNU Automake](https://www.gnu.org/software/automake/) as a build system.
 
+### MacOS Prereq
+
+    brew install autoconf automake libtool pkg-config libgcrypt glib
+
 Development headers for [Libgcrypt](https://www.gnupg.org/software/libgcrypt/index.html) and [GLib 2.0](https://docs.gtk.org/glib/)
 are required at a minimum
 
