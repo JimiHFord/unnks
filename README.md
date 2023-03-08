@@ -20,6 +20,8 @@ If you would like to be able to install this via `brew install unnks`, you can h
 
 Follow [this PR](https://github.com/Homebrew/homebrew-core/pull/125071) to stay up to date on this project's Homebrew status.
 
+[![Star History Chart](https://api.star-history.com/svg?repos=jimihford/unnks&type=Date)](https://star-history.com/#jimihford/unnks&Date)
+
 ## Introduction
 
 unnks extracts data from nks and nkx archives, which are commonly used by
@@ -113,10 +115,6 @@ version of unnks.
 
 2. The archives to be extracted must be seekable files.  Extracting from stdin
    or other non-seekable streams is not supported.
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=jimihford/unnks&type=Date)](https://star-history.com/#jimihford/unnks&Date)
 
 ## Thanks
 
