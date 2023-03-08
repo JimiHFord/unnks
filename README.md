@@ -1,6 +1,6 @@
 # unnks
 
-nks and nkx archive unpacker
+NKS and NKX archive unpacker
 
 ## Introduction
 
