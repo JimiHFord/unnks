@@ -1,12 +1,18 @@
-# unnks
+<div align="center">
 
-NKS and NKX archive unpacker
+# :guitar: unnks :drum:
+
+:trumpet: NKS and NKX archive unpacker :musical_keyboard:
+
+:file_folder: :arrow_right: :notes: :banjo: :violin: :long_drum: :accordion: :saxophone: :control_knobs:
+
+</div>
 
 ## Getting Started
 
     brew install unnks
 
-:warning: **^ This will not work until this repo gets enough recognition to be included into Homebrew ^** :warning:
+:warning: **^ This will not work until this repo gets enough notability to be included into Homebrew ^** :warning:
 
 If you would like to be able to install this via `brew install unnks`, you can help by completing the following:
 
