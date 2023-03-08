@@ -96,6 +96,9 @@ version of unnks.
 2. The archives to be extracted must be seekable files.  Extracting from stdin
    or other non-seekable streams is not supported.
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=jimihford/unnks&type=Date)](https://star-history.com/#jimihford/unnks&Date)
 
 ## Thanks
 
