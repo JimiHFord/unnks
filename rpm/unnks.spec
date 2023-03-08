@@ -66,13 +66,13 @@ rm -rf %{buildroot}%{_docdir}/%{name}
 %ldconfig_scriptlets libs
 
 %files
-%license GPL3 COPYING LICENSE
+%license COPYING LICENSE
 %doc README.md AUTHORS
 %{_bindir}/nks-scan
 %{_bindir}/unnks
 
 %files libs
-%license GPL3 COPYING LICENSE
+%license COPYING LICENSE
 %{_libdir}/libnks.so.%{libsomajor}{,.*}
 
 %files devel

@@ -2,5 +2,5 @@ SUBDIRS = src
 
 doc_DATA = AUTHORS COPYING README.md
 
-EXTRA_DIST = GPL3 libs.conf mklibdata
+EXTRA_DIST = LICENSE libs.conf mklibdata
 DISTCLEANFILES = *~
