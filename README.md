@@ -2,6 +2,24 @@
 
 NKS and NKX archive unpacker
 
+## Getting Started
+
+    brew install unnks
+
+:warning: **^ This will not work until this repo gets enough recognition to be included into Homebrew ^** :warning:
+
+If you would like to be able to install this via `brew install unnks`, you can help by completing the following:
+
+1. Leave this repo a :star:
+   * Homebrew requires GitHub projects to have 75+ :star:s before a formula may be added
+2. Fork :fork_and_knife: this repo
+   * Homebrew requires GitHub projects to have 30+ :fork_and_knife:s before a formula may be added
+3. Watch :eyes: this repo
+   * Homebrew requires GitHub projects to have 30+ :eyes:s before a formula may be added
+
+
+Follow [this PR](https://github.com/Homebrew/homebrew-core/pull/125071) to stay up to date on this project's Homebrew status.
+
 ## Introduction
 
 unnks extracts data from nks and nkx archives, which are commonly used by
