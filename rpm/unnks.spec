@@ -4,7 +4,7 @@
 Name:           unnks
 Version:        0.2.6
 Release:        0%{?dist}
-Summary:        nks and nkx archive unpacker
+Summary:        NKS and NKX archive unpacker
 
 License:        GPLv3+
 URL:            https://github.com/JimiHFord/unnks
