@@ -128,8 +128,8 @@ version of unnks.
 
 ## Thanks
 
-Thanks to Gynvael Coldwind for pointing out bugs in the code, and to Steffan
-Andrews for all the help with discovering how to extract nkx files and then
+Thanks to [Gynvael Coldwind](https://gynvael.coldwind.pl/?blog=1) for pointing out bugs in the code, and to [Steffan
+Andrews](https://orchetect.com/) for all the help with discovering how to extract nkx files and then
 testing whether it actually worked.
 
 Also thanks to all those who reported bugs, sent encryption key information and
