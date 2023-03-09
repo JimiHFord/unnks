@@ -1,10 +1,10 @@
 <div align="center">
 
-# :guitar: unnks :drum:
+# 🎸 unnks 🥁
 
-:trumpet: NKS and NKX archive unpacker :musical_keyboard:
+🎺 NKS and NKX archive unpacker 🎹
 
-:file_folder: :arrow_right: :notes: :banjo: :violin: :long_drum: :accordion: :saxophone: :control_knobs:
+📁 ➡️ 🎶 🪕 🎻 🪘 🪗 🎷 🎛️
 
 </div>
 
