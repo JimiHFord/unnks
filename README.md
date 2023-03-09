@@ -28,6 +28,10 @@ Follow [this PR](https://github.com/Homebrew/homebrew-core/pull/125071) to stay 
 
 [![Star History Chart](https://api.star-history.com/svg?repos=jimihford/unnks&type=Date)](https://star-history.com/#jimihford/unnks&Date)
 
+After you've picked up your :fork_and_knife:, begun watching :eyes:, and left a :star:, use this temporary solution to get `unnks` installed:
+
+    brew install jimihford/hendrix/unnks
+
 ## Introduction
 
 unnks extracts data from nks and nkx archives, which are commonly used by
