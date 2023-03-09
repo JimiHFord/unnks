@@ -12,23 +12,23 @@
 
     brew install unnks
 
-:warning: **^ This will not work until this repo gets enough notability to be included into Homebrew ^** :warning:
+⚠️ **^ This will not work until this repo gets enough notability to be included into Homebrew ^** ⚠️
 
 If you would like to be able to install this via `brew install unnks`, you can help by completing the following:
 
-1. Leave this repo a :star:
-   * Homebrew requires GitHub projects to have 75+ :star:s before a formula may be added
-2. Fork :fork_and_knife: this repo
-   * Homebrew requires GitHub projects to have 30+ :fork_and_knife:s before a formula may be added
-3. Watch :eyes: this repo
-   * Homebrew requires GitHub projects to have 30+ :eyes:s before a formula may be added
+1. Leave this repo a ⭐
+   * Homebrew requires GitHub projects to have 75+ ⭐s before a formula may be added
+2. Fork 🍴 this repo
+   * Homebrew requires GitHub projects to have 30+ 🍴s before a formula may be added
+3. Watch 👀 this repo
+   * Homebrew requires GitHub projects to have 30+ 👀s before a formula may be added
 
 
 Follow [this PR](https://github.com/Homebrew/homebrew-core/pull/125071) to stay up to date on this project's Homebrew status.
 
 [![Star History Chart](https://api.star-history.com/svg?repos=jimihford/unnks&type=Date)](https://star-history.com/#jimihford/unnks&Date)
 
-After you've picked up your :fork_and_knife:, begun watching :eyes:, and left a :star:, use this temporary solution to get `unnks` installed:
+After you've picked up your 🍴, begun watching 👀, and left a ⭐, use this temporary solution to get `unnks` installed:
 
     brew install jimihford/hendrix/unnks
 
