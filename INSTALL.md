@@ -4,7 +4,7 @@
 
 This project makes use of [GNU Automake](https://www.gnu.org/software/automake/) as a build system.
 
-### MacOS Prereq
+### macOS Prereq
 
     brew install autoconf automake libtool pkg-config libgcrypt glib
 
